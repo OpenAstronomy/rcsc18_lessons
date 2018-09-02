@@ -1,0 +1,14 @@
+name: stfc-summer-school
+
+channels:
+  - conda-forge
+
+dependencies:
+  - sunpy
+  - astropy
+  - jupyter
+  - matplotlib
+  - numpy
+  - xonsh
+  - pip:
+      - bash_kernel
